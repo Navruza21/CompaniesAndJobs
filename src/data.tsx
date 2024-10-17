@@ -1,0 +1,78 @@
+import { JobType, CompanyType } from "./type";
+
+export const JobData: JobType[] = [
+  {
+    id: 1,
+    title: "Frontend developer",
+    desc: "we need middle fronted developer",
+    technologies: ["react", "redux", "nextjs"],
+    location: "Maksim Gorkiy",
+    salary: 750,
+    phone: "+998912345678",
+    email: "email1@gmail.com",
+    telegram: "https://t.me/Exadel",
+    companyId: 1,
+  },
+  {
+    id: 2,
+    title: "backend developer",
+    desc: "we need middle bacjend developer",
+    technologies: ["data", "nextjs"],
+    salary: 1000,
+    phone: "+998911112233",
+    email: "email2@gmail.com",
+    companyId: 1,
+  },
+  {
+    id: 3,
+    title: "Frontend mentor",
+    desc: "we need middle fronted mentor",
+    technologies: ["react", "redux", "nextjs"],
+    location: "chilonzor",
+    salary: 500,
+    email: "email3@gmail.com",
+    telegram: "https://t.me/telegram",
+    companyId: 2,
+  },
+  {
+    id: 4,
+    title: "backend mentor",
+    desc: "We need middle backend mentor",
+    technologies: ["data", "nextjs"],
+    location: "Chilonzor",
+    salary: 700,
+    phone: "+998912225544",
+    email: "email4@gmail.com",
+    instagram: "proweb_hr",
+    companyId: 2,
+  },
+  {
+    id: 5,
+    title: "Fullstak mentor",
+    desc: "we need middle Fullstak mentor",
+    technologies: ["react", "redux", "nextjs", "data"],
+    location: "chilonzor",
+    salary: 750,
+    phone: "+998912345678",
+    telegram: "https://t.me/proweb_hr",
+    email: "email5@gmail.com",
+    companyId: 2,
+  },
+];
+
+export const CompanyData: CompanyType[] = [
+  {
+    id: 1,
+    title: "Exadel",
+    desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, praesentium.",
+    image: "https://avatars.githubusercontent.com/u/51965010?s=280&v=4",
+    website: "exadel.com",
+  },
+  {
+    id: 2,
+    title: "Proweb",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, accusamus.",
+    image: "https://marketing.uz/uploads/articles/3814/article-original.png",
+    website: "proweb.com",
+  },
+];
